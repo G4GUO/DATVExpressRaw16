@@ -1,0 +1,128 @@
+set_location_assignment PIN_122 -to dac_d[0]
+set_location_assignment PIN_125 -to dac_d[1]
+set_location_assignment PIN_126 -to dac_d[2]
+set_location_assignment PIN_129 -to dac_d[3]
+set_location_assignment PIN_132 -to dac_d[4]
+set_location_assignment PIN_133 -to dac_d[5]
+set_location_assignment PIN_134 -to dac_d[6]
+set_location_assignment PIN_135 -to dac_d[7]
+set_location_assignment PIN_136 -to dac_d[8]
+set_location_assignment PIN_137 -to dac_d[9]
+set_location_assignment PIN_139 -to dac_d[10]
+set_location_assignment PIN_141 -to dac_d[11]
+set_location_assignment PIN_142 -to dac_d[12]
+set_location_assignment PIN_143 -to dac_d[13]
+set_location_assignment PIN_120 -to daciqclk
+set_location_assignment PIN_119 -to daciqreset
+set_location_assignment PIN_118 -to daciqsel
+set_location_assignment PIN_121 -to daciqwrt
+set_location_assignment PIN_104 -to LED_3
+set_location_assignment PIN_113 -to LED_1
+set_location_assignment PIN_112 -to LED_2
+set_location_assignment PIN_144 -to pll_lock
+set_location_assignment PIN_1 -to fx2_fd[15]
+set_location_assignment PIN_2 -to fx2_fd[14]
+set_location_assignment PIN_3 -to fx2_fd[13]
+set_location_assignment PIN_4 -to fx2_fd[12]
+set_location_assignment PIN_32 -to fx2_fd[11]
+set_location_assignment PIN_74 -to fx2_fd[6]
+set_location_assignment PIN_40 -to fx2_fd[10]
+set_location_assignment PIN_41 -to fx2_fd[9]
+set_location_assignment PIN_42 -to fx2_fd[8]
+set_location_assignment PIN_73 -to fx2_fd[7]
+set_location_assignment PIN_75 -to fx2_fd[5]
+set_location_assignment PIN_76 -to fx2_fd[4]
+set_location_assignment PIN_79 -to fx2_fd[3]
+set_location_assignment PIN_86 -to fx2_fd[2]
+set_location_assignment PIN_87 -to fx2_fd[1]
+set_location_assignment PIN_92 -to fx2_fd[0]
+set_location_assignment PIN_53 -to fx2_sloe
+set_location_assignment PIN_44 -to fx2_slrd
+set_location_assignment PIN_43 -to fx2_slwr
+set_location_assignment PIN_93 -to fx2_ifclk
+set_location_assignment PIN_48 -to fx2_addr[1]
+set_location_assignment PIN_51 -to fx2_addr[0]
+set_location_assignment PIN_17 -to clk_48
+set_location_assignment PIN_65 -to fx2_flaga
+set_location_assignment PIN_64 -to fx2_flagb
+set_location_assignment PIN_63 -to fx2_flagc
+set_location_assignment PIN_45 -to fx2_flagd
+set_location_assignment PIN_115 -to pll_clk_20MHZ
+set_location_assignment PIN_101 -to i2c_scl
+set_location_assignment PIN_103 -to i2c_sda
+set_location_assignment PIN_18 -to si570clk
+set_location_assignment PIN_97 -to pio[7]
+set_location_assignment PIN_96 -to pio[6]
+set_location_assignment PIN_94 -to pio[5]
+set_location_assignment PIN_72 -to pio[4]
+set_location_assignment PIN_71 -to pio[3]
+set_location_assignment PIN_70 -to pio[2]
+set_location_assignment PIN_69 -to pio[1]
+set_location_assignment PIN_67 -to pio[0]
+set_location_assignment PIN_114 -to LED_5
+set_location_assignment PIN_7 -to fx2_pe[7]
+set_location_assignment PIN_8 -to fx2_pe[6]
+set_location_assignment PIN_9 -to fx2_pe[5]
+set_location_assignment PIN_24 -to fx2_pe[4]
+set_location_assignment PIN_25 -to fx2_pe[3]
+set_location_assignment PIN_28 -to fx2_pe[2]
+set_location_assignment PIN_30 -to fx2_pe[1]
+set_location_assignment PIN_31 -to fx2_pe[0]
+set_location_assignment PIN_60 -to fx2_pc0
+set_location_assignment PIN_59 -to fx2_pc2
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MINIMUM CURRENT" -to i2c_sda
+set_location_assignment PIN_99 -to j4_2
+set_location_assignment PIN_100 -to sleep_txdis
+set_location_assignment PIN_55 -to reset
+set_location_assignment PIN_58 -to txline
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:48:07  JANUARY 22, 2013"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.0
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name TOP_LEVEL_ENTITY DATVExpressRaw
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name DEVICE EP2C8T144C8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name CYCLONEII_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name GENERATE_RBF_FILE ON
+set_global_assignment -name VERILOG_FILE i2c.v
+set_global_assignment -name VERILOG_FILE ifir.v
+set_global_assignment -name QIP_FILE ramff.qip
+set_global_assignment -name IP_TOOL_NAME FIFO -qip ramff.qip
+set_global_assignment -name IP_TOOL_VERSION 13.0 -qip ramff.qip
+set_global_assignment -name VERILOG_FILE ramff.v -qip ramff.qip
+set_global_assignment -name MISC_FILE ramff_bb.v -qip ramff.qip
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name IP_TOOL_NAME ALTPLL -qip pll.qip
+set_global_assignment -name IP_TOOL_VERSION 12.1 -qip pll.qip
+set_global_assignment -name VERILOG_FILE pll.v -qip pll.qip
+set_global_assignment -name MISC_FILE pll_bb.v -qip pll.qip
+set_global_assignment -name MISC_FILE pll.ppf -qip pll.qip
+set_global_assignment -name VERILOG_FILE DATVExpressRaw.v
+set_global_assignment -name VERILOG_FILE srgen.v
+set_global_assignment -name VERILOG_FILE dac.v
+set_global_assignment -name VERILOG_FILE memffread.v
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS OFF
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT EXTRA
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name AUTO_PACKED_REGISTERS_STRATIXII NORMAL
